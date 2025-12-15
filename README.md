@@ -1,0 +1,1 @@
+My AI Virtual Mouse project is a real-time computer vision–based automation system. It uses a webcam to detect hand landmarks with MediaPipe and tracks finger movements to control mouse cursor movement and clicking actions. The project demonstrates how AI models, vision pipelines, and system automation work together in a real-time application.”
