@@ -1,8 +1,8 @@
 import cv2
-import mediapipe as mp
-import pyautogui
-cap = cv2.VideoCapture(0)
-hand_detector =mp.solutions.hands.Hands()
+import mediapipe as mp # this is used for pretrained modeled 
+import pyautogui  #this is used for gui of hand gesture control 
+cap = cv2.VideoCapture(0) # it capture the video on the screen
+hand_detector =mp.solutions.hands.Hands() #  hand detector is the modeled used for hand gesture 
 drawing_utils=mp.solutions.drawing_utils
 screen_width,screen_height=pyautogui.size()
 index_y=0
